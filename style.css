@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+}
+.container-hero {
+    background-image: url(../image/beautiful-evening-landscape-minimal.jpeg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.text {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+.container-info-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.info-panel {
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 0px 0px 20px -10px;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+}
+.judul-info-panel {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.info-panel p {
+    font-size: 14px;
+}
+.info-panel .fab,.fas {
+    font-size: 40px;
+    color: rgb(129, 23, 129);
+    margin-bottom: -5px;
+    margin-top: 30px;
+}
+.container-source {
+    background-color: azure;
+    margin-top: 50px;
+}
+.header h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+.header hr {
+    width: 20%;
+    margin: auto;
+    border: solid 2px rgb(0, 0, 0);
+    margin-top: 5px;
+}
+.container-card {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px ;
+}
+.card-items {
+    width: 400px;
+    background-color: azure;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 10px 20px -10px;
+    border-radius: 25px;
+}
+.card-items img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card-items p {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-items button {
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: rgb(129, 23, 129);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(129, 23, 129);
+    width: 80%;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+}
+.card-items button:hover {
+    background-color: white;
+    color: rgb(129, 23, 129);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.container-showcase {
+    margin-top: 50px;
+}
+.showcase-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.showcase-items {
+    width: 500px;
+}
+.showcase-items img {
+    width: 100%;
+    border-radius: 10px;
+}
+.showcase-items p {
+    margin-top: 20px;
+    line-height: 26px;
+}
+.showcase-items button {
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: rgb(129, 23, 129);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(129, 23, 129);
+    font-size: 16px;
+}
+.showcase-items button:hover {
+    background-color: white;
+    color: rgb(129, 23, 129);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.container-galeri {
+    margin-top: 50px;
+    background-color: azure;
+}
+.container-galeri h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+.container-galeri hr {
+    width: 20%;
+    margin: auto;
+    border: solid 2px rgb(0, 0, 0);
+    margin-top: 5px;
+}
+.galeri-flex {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.galeri-items {
+    width: 400px;
+}
+.galeri-items img {
+    width: 100%;
+    margin-top: 30px;
+}
+.galeri-items img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.container-celebrity {
+    margin-top: 50px;
+    width: 100%;
+}
+.celebrity-flex {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.celebrity-items {
+    width: 250px;
+    background-color: azure;
+    box-shadow: 0px 0px 20px -10px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+.celebrity-items img {
+    width: 30%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.celebrity-items q {
+    font-size: 14px;
+    margin-top: 50px;
+}
+.container-footer {
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+}
+.footer-flex {
+    width: 97%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.footer-items-logo {
+    width: 400px;
+}
+.footer-items-logo img {
+    width: 100px;
+    border-radius: 50%;
+}
+.footer-items-text {
+    width: 600px;
+    text-align: right;
+}
+.footer-items-text p {
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+}
+.footer-items-text .fab {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
